@@ -152,6 +152,7 @@
   color: #1050cf;
   text-decoration: none;
   font-weight: bold;
+  visibility: hidden;
 }
 
 .teaser-link:hover {
