@@ -10,17 +10,18 @@ function App() {
   return (
     <div className="app">
     <header className="app-header">
+      <div className="app-header-logo"></div>
       <div className="app-header-title">
-        <h1 className="app-header-title-text">NombreEmpresa</h1>
+        <h1 className="app-header-title-text">Rafa</h1>
       </div>
-      <div className="app-header-logo">Hola2</div>
+      
     </header>
   
     <div className="app-services">
       <div className="app-services-images">
         <div className="app-services-description">
           <b>¡Tu solución confiable para envíos y recolecciones rápidas!</b> <br />
-          En <b>NombreEmpresa</b>, hacemos que tus envíos sean más fáciles que nunca. Recogemos tus paquetes directamente donde estés y los llevamos a su destino de forma segura y puntual. 
+          En <b>Rafa</b>, hacemos que tus envíos sean más <b>Ra</b>pidos y <b>fá</b>ciles que nunca. Recogemos tus paquetes directamente donde estés y los llevamos a su destino de forma segura y puntual. 
           Además, ofrecemos el servicio de pago contra entrega, para que tú y tus clientes tengan la tranquilidad de realizar transacciones sin preocupaciones.
           Ya sea que necesites enviar documentos, productos o cualquier tipo de paquete, estamos aquí para ayudarte con un servicio amable, eficiente y accesible. <br />
           <b>¡Cuenta con nosotros para conectar distancias y facilitar tu día a día!</b>
@@ -82,6 +83,11 @@ function App() {
         </article>
       </div>
     </div>
+    <footer className="app-footer">
+      <div className="app-footer-title">
+        <div className="app-footer-title-text">Contactenos</div>
+      </div>      
+    </footer>
   </div>
       
   );

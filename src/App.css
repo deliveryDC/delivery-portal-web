@@ -31,6 +31,13 @@
   background-color: #083d9c;
   border-radius: 5px;
   color: white;
+  background-image: url('./statics/fon.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 80px;
+  height: 50px;
+  background-position: center;
+  background-color: #fff;
 }
 
 /* Services Section */
@@ -67,7 +74,7 @@
   border-radius: 10px;
   background-image: url('./statics/services.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   align-items: center;
   margin-top: 12px;
   margin-bottom: 12px;
@@ -127,7 +134,7 @@
 }
 
 .teaser-image img {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
@@ -159,6 +166,16 @@
   text-decoration: underline;
 }
 
+.app-footer {
+  background-color: #1050cf;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: white;
+  font-size: 12px;
+}
 
 /* Animations */
 @keyframes app-logo-spin {
